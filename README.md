@@ -37,8 +37,8 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina.
 
 ### 1️⃣ Clonar el Repositorio
 ```bash
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-cd tu-repositorio
+git clone https://github.com/EduardoLimones/LLM_APP.git
+cd LLM_APP
 ```
 
 ### 2️⃣ Crear y Activar Entorno Virtual
@@ -121,13 +121,13 @@ Este proyecto está preparado para ser desplegado con Docker para una máxima po
 
 ### 1. Construir la Imagen
 ```bash
-docker build -t tu-nombre-de-imagen .
+docker build -t eduardolimones/mi-asistente-ia:1.0 .
 ```
 
 ### 2. Ejecutar el Contenedor
 Asegúrate de pasar las variables de entorno a través del archivo `.env`.
 ```bash
-docker run -d -p 5000:5000 --env-file ./.env --name mi-contenedor tu-nombre-de-imagen
+docker run -d -p 5000:5000 --env-file ./.env --name mi-contenedor eduardolimones/mi-asistente-ia:1.0
 ```
 La aplicación estará disponible en `http://localhost:5000`.
 
