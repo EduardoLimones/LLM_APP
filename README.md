@@ -1,4 +1,5 @@
 🎮 Asistente IA de Videojuegos 🤖
+
 ¡Bienvenido! Este proyecto es una aplicación web full-stack que funciona como un asistente inteligente y especializado en el universo de los videojuegos. Utiliza el poder del modelo de lenguaje grande (LLM) de Google, Gemini, para ofrecer respuestas expertas en tres áreas: recomendaciones, análisis de notas/reseñas y guías/trucos.
 
 El proyecto está completamente dockerizado para un despliegue fácil y consistente, y se conecta a una base de datos PostgreSQL en la nube para registrar el historial de conversaciones.
