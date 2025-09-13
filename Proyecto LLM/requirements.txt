@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+requests
+psycopg2-binary
+python-dotenv
+pytest
